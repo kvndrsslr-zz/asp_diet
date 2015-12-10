@@ -428,7 +428,7 @@
 
 %% Nahrungsmittel: chicoree (schreibweise?)
  hatKalorien   (chicoree,                     21).
- hatNaehrstoff (chicoree, fett,               08).
+ hatNaehrstoff (chicoree, fett,                8).
  hatNaehrstoff (chicoree, kohlenhydrate,      24).
  hatNaehrstoff (chicoree, protein,            12).
  hatNaehrstoff (chicoree, vitaminC,            8). %mg
@@ -447,7 +447,7 @@
  hatNaehrstoff (fenchel, vitaminC,              9). %mg
  hatNaehrstoff (fenchel, vitaminB6,            59). %Mikrogramm (09mg)
  hatNaehrstoff (fenchel, magnesium,            49). %mg
- hatNaehrstoff (fenchel, eisen,                --). %Mikrogramm
+ hatNaehrstoff (fenchel, eisen,              2500). %Mikrogramm
  hatNaehrstoff (fenchel, calcium,              38). %mg
  hatNaehrstoff (fenchel, wasser,             92).
  hatKategorie  (fenchel, gemuese).
@@ -574,14 +574,14 @@
  hatKategorie  (thunfisch, hauptkomponenteWarm).
 
 %% Nahrungsmittel: club-mate
- hatKalorien   (club-mate,                   20).
- hatNaehrstoff (club-mate, fett,              0).
- hatNaehrstoff (club-mate, kohlenhydrate,     5).
- hatNaehrstoff (club-mate, protein,           0).
- hatNaehrstoff (club-mate, vitaminC,          0). %mg
- hatNaehrstoff (club-mate, vitaminB6,         0). %Mikrogramm
- hatNaehrstoff (club-mate, magnesium,         0). %Milligramm
- hatNaehrstoff (club-mate, eisen,             0). %Mikrogramm
- hatNaehrstoff (club-mate, calcium,           0). %Milligramm
- hatNaehrstoff (club-mate, wasser,           90).
- hatKategorie  (club-mate, getraenk).
+ hatKalorien   (clubmate,                   20).
+ hatNaehrstoff (clubmate, fett,              0).
+ hatNaehrstoff (clubmate, kohlenhydrate,     5).
+ hatNaehrstoff (clubmate, protein,           0).
+ hatNaehrstoff (clubmate, vitaminC,          0). %mg
+ hatNaehrstoff (clubmate, vitaminB6,         0). %Mikrogramm
+ hatNaehrstoff (clubmate, magnesium,         0). %Milligramm
+ hatNaehrstoff (clubmate, eisen,             0). %Mikrogramm
+ hatNaehrstoff (clubmate, calcium,           0). %Milligramm
+ hatNaehrstoff (clubmate, wasser,           90).
+ hatKategorie  (clubmate, getraenk).
