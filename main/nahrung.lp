@@ -545,7 +545,7 @@
  hatNaehrstoff (tomate, eisen,                 600). %µg (0,50mg)
  hatNaehrstoff (tomate, calcium,               11). %mg
  hatNaehrstoff (tomate, wasser,                95).
- hatKategorie  (tomate, obst).
+ hatKategorie  (tomate, gemuese).
 
 %% Nahrungsmittel: zucchini (mit schale) 
  hatKalorien   (zucchini,                        18).
@@ -558,7 +558,7 @@
  hatNaehrstoff (zucchini, eisen,                 475). %µg (0,50mg)
  hatNaehrstoff (zucchini, calcium,               16). %mg
  hatNaehrstoff (zucchini, wasser,                95).
- hatKategorie  (zucchini, obst).
+ hatKategorie  (zucchini, gemuese).
 
 %% Nahrungsmittel: thunfisch
  hatKalorien   (thunfisch,                  155).
@@ -571,7 +571,7 @@
  hatNaehrstoff (thunfisch, eisen,          1200). %Mikrogramm
  hatNaehrstoff (thunfisch, calcium,          12). %Milligramm
  hatNaehrstoff (thunfisch, wasser,           65).
- hatKategorie  (thunfisch, hauptkomponenteWarm).
+ hatKategorie  (thunfisch, hauptkomponente).
 
 %% Nahrungsmittel: club-mate
  hatKalorien   (clubmate,                   20).
