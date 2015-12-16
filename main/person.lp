@@ -11,6 +11,6 @@ alter(30).
 geschlecht(m).
 
 %%PAL - Wert (physical acitivity level)gibt koerperliche aktivitaet an (im Job und der Freizeit)
-%%Wert zwischen 1 und 2,5 siehe auch bedarf.lp
-pal(1,5).
+%%Wert zwischen 1 und 2,5 siehe auch bedarf.lp skaliert mit 10
+pal(15).
 %% http://www.ernaehrung.de/tipps/allgemeine_infos/ernaehr10.php
