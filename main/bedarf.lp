@@ -8,3 +8,8 @@ gu(w, (655096 + ( 9563 * X) + (1850 * Y) - (4676 * Z)) / 1000) :- gewicht(X), gr
 
 %% Grundumsatz skaliert mit PAL um den Grundbedarf(Bedarf) zu errechnen
 bedarf(X * Y / 10):- gu(G, X), pal(Y), geschlecht(G).
+
+bedarf(vitaminC,  95) :- geschlecht(w).
+bedarf(vitaminC, 110) :- geschlecht(m).
+
+bedarfKcal(kohlenhydrate, X / 2) :- bedarf(X).
