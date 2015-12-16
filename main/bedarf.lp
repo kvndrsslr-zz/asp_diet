@@ -3,7 +3,8 @@
 %% Grundumsatz (GU) nach Harris und Benedict (1919)
 
 %%Grundumsatz maennlich
-gum(66,473 + (13,752 * gewicht(X)) + (5,003 * groesse(Y)) - (6,755 * alter(Z))):- gewicht(X), groesse(Y),alter(Z).
+gum(66,473 + (13,752 * 80) + (5,003 * 190) - (6,755 * 30))
+%gum(66,473 + (13,752 * gewicht(X)) + (5,003 * groesse(Y)) - (6,755 * alter(Z))):- gewicht(X), groesse(Y),alter(Z).
 
 %%Grundumsatz weiblich 
 %guw(655,096 + 9,563 * gewicht + 1,850 * groesse - 4,676 * alter).
