@@ -2,7 +2,7 @@
 %% Berechnung des Grundbedarfs in Kcal pro Tag
 %% Grundumsatz (GU) nach Harris und Benedict (1919)
 
-%%Grundumsatz
+%%Grundumsatz in Kcal/Tag
 gu(m, (66473  + (13752 * X) + (5003 * Y) - (6755 * Z)) / 1000) :- gewicht(X), groesse(Y), alter(Z).
 gu(w, (655096 + ( 9563 * X) + (1850 * Y) - (4676 * Z)) / 1000) :- gewicht(X), groesse(Y), alter(Z).
 
@@ -33,7 +33,8 @@ bedarfCa(calcium, 1000) :- geschlecht(m).
 bedarfProt(protein, (X * 8)/10 ):- gewicht(X), geschlecht(w).
 bedarfProt(protein, (X * 9)/10 ):- gewicht(X), geschlecht(m).
 
-%% Bedarf Kohlenhydrate
+%% Bedarf Kohlenhydrate (Kcal)
 bedarfKcal(kohlenhydrate, X / 2) :- bedarf(X).
 
-%% Bedarf Fette
+%% Bedarf Fette 30% des Tagesbedarfs (Kcal)
+bedarfFett(fett, (X * 30)/100):- bedarf(X).
