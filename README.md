@@ -20,6 +20,8 @@ Aufgaben:
     * 7 Standardtage
     * Verschiedene, sinnvolle Constraints
 
+http://www.beikost.de/grund1.shtml
+
 Schnittstellen:
 ==============
 
