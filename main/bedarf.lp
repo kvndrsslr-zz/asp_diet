@@ -10,8 +10,8 @@ gu(w, (655096 + ( 9563 * X) + (1850 * Y) - (4676 * Z)) / 1000) :- gewicht(X), gr
 bedarf(kcal, X * Y / 10):- gu(G, X), pal(Y), geschlecht(G).
 
 %% Tagesbedarf Vitamin C in Milligramm Bedarf fuer 19 - 25
-%bedarf(vitaminC,  95) :- geschlecht(w).
-%bedarf(vitaminC, 110) :- geschlecht(m).
+bedarf(vitaminC,  95) :- geschlecht(w).
+bedarf(vitaminC, 110) :- geschlecht(m).
 
 %% Tagesbedarf Vitamin B6 in Mikrogramm Bedarf feur 19 - 25
 bedarf(vitaminB6,  1200) :- geschlecht(w).
