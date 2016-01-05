@@ -244,18 +244,18 @@
  hatKategorie  (orangensaft, getraenk).
 
 %% Nahrungsmittel: kaffee (schwarz)
- hatKalorien   (kaffee,                    2).
- hatNormGewicht(kaffee,                  100).
- hatNaehrstoff (kaffee, fett,              0).
- hatNaehrstoff (kaffee, kohlenhydrate,     0).
- hatNaehrstoff (kaffee, protein,           0).
- hatNaehrstoff (kaffee, vitaminC,          0). %Milligramm
- hatNaehrstoff (kaffee, vitaminB6,         0). %Mikrogramm
- hatNaehrstoff (kaffee, magnesium,         4). %Milligramm
- hatNaehrstoff (kaffee, eisen,             0). %Mikrogramm
- hatNaehrstoff (kaffee, calcium,           2). %Milligramm
- hatNaehrstoff (kaffee, wasser,           99).
- hatKategorie  (kaffee, getraenk).
+ %hatKalorien   (kaffee,                    2).
+ %hatNormGewicht(kaffee,                  100).
+ %hatNaehrstoff (kaffee, fett,              0).
+ %hatNaehrstoff (kaffee, kohlenhydrate,     0).
+ %hatNaehrstoff (kaffee, protein,           0).
+ %hatNaehrstoff (kaffee, vitaminC,          0). %Milligramm
+ %hatNaehrstoff (kaffee, vitaminB6,         0). %Mikrogramm
+ %hatNaehrstoff (kaffee, magnesium,         4). %Milligramm
+ %hatNaehrstoff (kaffee, eisen,             0). %Mikrogramm
+ %hatNaehrstoff (kaffee, calcium,           2). %Milligramm
+ %hatNaehrstoff (kaffee, wasser,           99).
+ %hatKategorie  (kaffee, getraenk).
 
 %% Nahrungsmittel: spargel (gekocht)
  hatKalorien   (spargel,                   22).
@@ -560,14 +560,14 @@
  %hatKategorie  (thunfisch, hauptkomponente).
 %
 %%% Nahrungsmittel: club-mate
- %hatKalorien   (clubmate,                   20).
- %hatNaehrstoff (clubmate, fett,              0).
- %hatNaehrstoff (clubmate, kohlenhydrate,     5).
- %hatNaehrstoff (clubmate, protein,           0).
- %hatNaehrstoff (clubmate, vitaminC,          0). %mg
- %hatNaehrstoff (clubmate, vitaminB6,         0). %Mikrogramm
- %hatNaehrstoff (clubmate, magnesium,         0). %Milligramm
- %hatNaehrstoff (clubmate, eisen,             0). %Mikrogramm
- %hatNaehrstoff (clubmate, calcium,           0). %Milligramm
- %hatNaehrstoff (clubmate, wasser,           90).
- %hatKategorie  (clubmate, getraenk).
+ hatKalorien   (clubmate,                   20).
+ hatNaehrstoff (clubmate, fett,              0).
+ hatNaehrstoff (clubmate, kohlenhydrate,     5).
+ hatNaehrstoff (clubmate, protein,           0).
+ hatNaehrstoff (clubmate, vitaminC,          0). %mg
+ hatNaehrstoff (clubmate, vitaminB6,         0). %Mikrogramm
+ hatNaehrstoff (clubmate, magnesium,         0). %Milligramm
+ hatNaehrstoff (clubmate, eisen,             0). %Mikrogramm
+ hatNaehrstoff (clubmate, calcium,           0). %Milligramm
+ hatNaehrstoff (clubmate, wasser,           90).
+ hatKategorie  (clubmate, getraenk).
