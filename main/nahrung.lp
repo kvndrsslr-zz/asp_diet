@@ -230,7 +230,7 @@
  hatKategorie  (senfsosse, sosse).
 
 %% Nahrungsmittel: orangensaft (ungesuesst)
- hatKalorien   (orangensaft,                  426).
+ hatKalorien   (orangensaft,                   45).
  hatNormGewicht(orangensaft,                  100).
  hatNaehrstoff (orangensaft, fett,              0).
  hatNaehrstoff (orangensaft, kohlenhydrate,    11).
