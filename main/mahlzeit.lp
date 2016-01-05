@@ -12,8 +12,8 @@ portionHatGewicht(X, (Z * 100) / Y) :- hatKalorien(X, Y), kalorienProPortion(Z).
 portionHatNaehrstoff(X, Y, (Z * W) / 100) :- hatSkaliertNaehrstoff(X, Y, Z), portionHatGewicht(X, W).
 
 %%% Hauptmahlzeiten bestehend aus drei Komponenten und dazugehörigen Portionen (insgesamt 20 Portionen)
-hauptmahlzeit(X, 10, Y, 7, Z, 3) :- hatKategorie(X, hauptkomponente), hatKategorie(Y, beilage), hatKategorie(Z, gemuese).
-hauptmahlzeit(X, 10, Y, 7, Z, 3) :- hatKategorie(X, hauptkomponente), hatKategorie(Y, beilage), hatKategorie(Z,   sosse).
+hauptmahlzeit(X, 8, Y, 9, Z, 3) :- hatKategorie(X, hauptkomponente), hatKategorie(Y, beilage), hatKategorie(Z, gemuese).
+hauptmahlzeit(X, 8, Y, 9, Z, 3) :- hatKategorie(X, hauptkomponente), hatKategorie(Y, beilage), hatKategorie(Z,   sosse).
 hauptmahlzeit(X, 12, Y, 4, Z, 4) :- hatKategorie(X, hauptkomponente), hatKategorie(Y, gemuese), hatKategorie(Z,   sosse).
 hauptmahlzeit(X, 10, Y, 5, Z, 5) :- hatKategorie(X,         beilage), hatKategorie(Y, gemuese), hatKategorie(Z,   sosse).
 

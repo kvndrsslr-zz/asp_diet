@@ -10,8 +10,8 @@ gu(w, (655096 + ( 9563 * X) + (1850 * Y) - (4676 * Z)) / 1000) :- gewicht(X), gr
 bedarf(kcal, X * Y / 10):- gu(G, X), pal(Y), geschlecht(G).
 
 %% Tagesbedarf Vitamin C in Milligramm Bedarf fuer 19 - 25
-bedarf(vitaminC,  95) :- geschlecht(w).
-bedarf(vitaminC, 110) :- geschlecht(m).
+%bedarf(vitaminC,  95) :- geschlecht(w).
+%bedarf(vitaminC, 110) :- geschlecht(m).
 
 %% Tagesbedarf Vitamin B6 in Mikrogramm Bedarf feur 19 - 25
 bedarf(vitaminB6,  1200) :- geschlecht(w).
@@ -33,7 +33,7 @@ bedarf(protein, (X * 8)/10 ):- gewicht(X), geschlecht(w).
 bedarf(protein, (X * 9)/10 ):- gewicht(X), geschlecht(m).
 
 %% Tagesbedarf Bedarf Kohlenhydrate min 50% des Tagesbedarfs (1g Kohlenhydrate =  4,1 kcal)
-bedarf(kohlenhydrate, ((X / 2) * 10) / 41) :- bedarf(kcal, X).
+bedarf(kohlenhydrate, ((X * 25 / 100) * 10) / 41) :- bedarf(kcal, X).
 
 %% Tagesbedarf Fette max 30% des Tagesbedarfs (1 g Fett =  9,3 kcal)
 bedarfMax(fett, (((X * 30)/100) * 10) / 93) :- bedarf(kcal, X).
