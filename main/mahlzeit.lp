@@ -43,4 +43,3 @@ mahlzeitHatNaehrstoff(N, X, P1, Y, P2, Z, P3, P1 * N1 + P2 * N2 + P3 *N3) :-
 hauptmahlzeit(X, P1, Y, P2, Z, P3),
 portionHatNaehrstoff(X, N, N1), portionHatNaehrstoff(Y, N, N2), portionHatNaehrstoff(Z, N, N3).
 
-#show komponentengewichteGericht/7.
