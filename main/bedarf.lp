@@ -33,10 +33,10 @@ bedarf(protein, (X * 8)/10 ):- gewicht(X), geschlecht(w).
 bedarf(protein, (X * 9)/10 ):- gewicht(X), geschlecht(m).
 
 %% Tagesbedarf Bedarf Kohlenhydrate min 50% des Tagesbedarfs (1g Kohlenhydrate =  4,1 kcal)
-bedarf(kohlenhydrate, ((X / 2) * 41) / 10) :- bedarf(X).
+bedarf(kohlenhydrate, ((X / 2) * 10) / 41) :- bedarf(kcal, X).
 
 %% Tagesbedarf Fette max 30% des Tagesbedarfs (1 g Fett =  9,3 kcal)
-bedarf(fett, (((X * 30)/100) * 93) / 10) :- bedarf(X).
+bedarfMax(fett, (((X * 30)/100) * 10) / 93) :- bedarf(kcal, X).
 
 %%%Quellen
 % Die Referenzwerte fuer die Naehrstoffzufuhr stammen von der DGE (https://www.dge.de/) 
