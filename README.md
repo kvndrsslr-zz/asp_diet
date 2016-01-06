@@ -56,13 +56,13 @@ Aufgrund der Probleme, die weiter im Text unter "Grenzen des Programms" zusammen
 Die Standarddiät generiert einen Essensplan ohne Einschränkung der Zutaten. Ursprünglich war geplant, für jeden Tag ein anderes Hauptgericht zu garantieren. Dies wäre jedoch nach unserem Verständnis von ASP nur mit einem Wochenprädikat machbar gewesen. Da dieses aber aufgrund des hohen Rechenaufwandes nicht umsetzbar war, mussten wir diese Idee verwerfen.
 
 
-#### Ovo-Lacto Vegetarisch ####
+#### Ovo-Lacto-Vegetarisch ####
 
-...
+Bei dieser Diät wird gewährleistet, dass die verwendeten Nahrungsmittel weder Fleisch noch Fisch enthalten.
 
 #### Gluten-frei ####
 
-...
+Hier wird darauf geachtet, dass keines der verwendeten Nahrungsmittel Gluten enthält. Wird diese Diät gewählt, so erhält man keine Lösungen. Der Grund dafür ist, dass die Auswahl an verfügbaren Nahrungsmitteln dann nicht groß genug ist, um einen Tag, geschweige denn eine Woche, mit ausgewogener Kost zu füllen.
 
 #Grenzen des Programms#
 
