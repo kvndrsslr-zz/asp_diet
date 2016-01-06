@@ -16,17 +16,25 @@ Die verschienenen Nahrungskomponenten und deren beinhalteten Nährstoffe sind in
 Die Regeln in `mahlzeit.lp` generieren schließlich verschiene Typen von Mahlzeiten wie Frühstück, Hauptmahlzeit, Abendbrot und Snacks, welche von Diäten zu Essensplänen zusammengesetzt werden sollen.
 
 
-####`person.lp`###
+####`person.lp`####
 
 
-####`bedarf.lp`###
+####`bedarf.lp`####
 
 
-####`nahrung.lp`###
+####`nahrung.lp`####
 
 Wir entschieden uns für die Kombination von Komponenten zu Mahlzeiten, da der entstehende Essensplan somit sehr abwechslungsreich gestaltet werden kann. Mithilfe des Prädikats `hatBestandteil` kann beschrieben werden, welche besonderen Inhaltsstoffe Komponenten haben (Laktose, Gluten, Fisch, Fleisch, ...), um darauf in spezialisierten Diäten Rücksicht zu nehmen.
-####`mahlzeit.lp`###
+####`mahlzeit.lp`####
 
+
+### Diäten ###
+
+#### Standard ####
+
+#### Ovo-Lacto Vegetarisch ####
+
+#### Gluten-frei ####
 
 #Grenzen des Programms#
 
