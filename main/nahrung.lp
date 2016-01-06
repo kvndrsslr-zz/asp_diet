@@ -171,6 +171,7 @@
  hatNaehrstoff (lachsfilet, eisen,           900). %Mikrogramm
  hatNaehrstoff (lachsfilet, calcium,          20). %Milligramm
  hatNaehrstoff (lachsfilet, wasser,           65).
+ hatBestandteil(lachsfilet, fisch).
  hatKategorie  (lachsfilet, hauptkomponente).
 
  %% Nahrungsmittel: haferflocken
@@ -381,6 +382,7 @@
  hatNaehrstoff (bratwurst, eisen,          3700). %Mikrogramm
  hatNaehrstoff (bratwurst, calcium,         267). %Milligramm
  hatNaehrstoff (bratwurst, wasser,           60).
+ hatBestandteil(bratwurst, fleisch).
  hatKategorie  (bratwurst, hauptkomponente).
 %
 %%% Nahrungsmittel: kohlrabi (gekocht)
