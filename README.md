@@ -5,7 +5,7 @@ Grundaufbau
 -------------------
 
 Wir entschieden uns für eine Art Pluginsystem, um verschiedene Diäten umsetzen zu können.
-Das Hauptprogramm im Ordner `main/` generiert Mahlzeiten, welche dann von den speziellen Diäten in Unterordnern von `diet/` zu einem Tagesplan und darauf aufbauend einem Wochenplan kombiniert werden sollen.
+Das Hauptprogramm im Ordner `main/` generiert Mahlzeiten, welche dann von den speziellen Diäten in Unterordnern von `diet/` zu einem Tagesplan, und darauf aufbauend einem Wochenplan, kombiniert werden sollen.
 
 ###`main`-Programm###
 
@@ -18,23 +18,51 @@ Die Regeln in `mahlzeit.lp` generieren schließlich verschiene Typen von Mahlzei
 
 ####`person.lp`####
 
+Die Parameter des Programms
+
+- Geschlecht
+- Größe
+- Gewicht
+- Alter
+- Physical Activity Level (PAL)
+
+werden hier beschrieben.
+Es ist denkbar, dass jeder Nutzer die Datei kopiert, verändert und dann clingo mit seiner Nutzerdatei aufruft.
 
 ####`bedarf.lp`####
 
+In dieser Datei wird der täglich empfohlene Bedarf von Energie und einigen Nährstoffen aus den Nutzerdaten ermittelt.
+Hierfür nutzen wir die Empfehlungen der DGE (http://www.dge.de).
 
 ####`nahrung.lp`####
 
 Wir entschieden uns für die Kombination von Komponenten zu Mahlzeiten, da der entstehende Essensplan somit sehr abwechslungsreich gestaltet werden kann. Mithilfe des Prädikats `hatBestandteil` kann beschrieben werden, welche besonderen Inhaltsstoffe Komponenten haben (Laktose, Gluten, Fisch, Fleisch, ...), um darauf in spezialisierten Diäten Rücksicht zu nehmen.
 ####`mahlzeit.lp`####
 
+Es werden 2 Grundtypen von Mahlzeiten generiert, Snacks und Hauptmahlzeiten.
+Außerdem werden Frühstück und Abendbrot als Snack deklariert und anschließend alle vier Typen unter dem Prädikat `mahlzeit` zusammengefasst.
+
+Die Bildungsvorschriften der Snacks und Hauptmahlzeiten sind an unseren Essgewohnheiten ausgerichtet, aber keineswegs vollständig. So haben wir uns, um Redundanz im Programm zu vermeiden, dafür entschieden Mahlzeiten als 3er Tupel von Komponenten zu betrachten. Dies erfasst den Grundcharakter der meisten Mahlzeiten, lässt aber natürlich auch einige Zutaten außen vor, welche man i.d.R. dazu verwendet. So werden viele Menschen, wenn sie Spinat, Kartoffeln und Ei essen, Rahmspinat servieren, womit das Gericht dem um einiges mehr Fett beinhaltet als es unser Programm errechnet. Das nahmen wir jedoch in Kauf um Komplexität zu vermindern und eine einfache Modellierung des weiteren Programms zu ermöglichen.
+
+Die Mahlzeiten hier sind so skaliert, dass sie insgesamt 100kcal Energie beinhalten. Es ist die Aufgabe der Diätunterprogramme auf dieser Grundportion aufbauend weiter zu skalieren um den Bedarf abzudecken.
 
 ### Diäten ###
 
+Diäten sollten ursprünglich aus einem Tagesplaner- und einem Wochenplanerprogramm bestehen.
+Aufgrund der Probleme, die weiter im Text unter "Grenzen des Programms" zusammengefasst sind, bestehen Diäten nun nur noch aus einem Tagesplaner, welcher mithilfe der Mengenbeschränkungssyntax eine Woche aus 7 Tage generiert.
+
 #### Standard ####
+
+Die Standarddiät generiert einen Essensplan ohne Einschränkung der Zutaten. Ursprünglich war geplant, für jeden Tag ein anderes Hauptgericht zu garantieren. Dies wäre jedoch nach unserem Verständnis von ASP nur mit einem Wochenprädikat machbar gewesen. Da dieses aber aufgrund des hohen Rechenaufwandes nicht umsetzbar war, mussten wir diese Idee verwerfen.
+
 
 #### Ovo-Lacto Vegetarisch ####
 
+...
+
 #### Gluten-frei ####
+
+...
 
 #Grenzen des Programms#
 
