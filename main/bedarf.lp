@@ -40,4 +40,4 @@ bedarfMax(fett, (((X * 30)/100) * 10) / 93) :- bedarf(kcal, X).
 
 %%%Quellen
 % Die Referenzwerte fuer die Naehrstoffzufuhr stammen von der DGE (https://www.dge.de/) 
-% Zur berechnung des Grundbedarfs und zur Ermmittlung des PAL Werts siehe (http://www.ernaehrung.de/tipps/allgemeine)
+% Zur berechnung des Grundbedarfs und zur Ermmittlung des PAL Werts siehe (http://www.ernaehrung.de/tipps/allgemeine_infos/ernaehr10.php)
